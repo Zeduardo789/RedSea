@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSea.Web", "RedSea.Web\RedSea.Web.csproj", "{83449E2D-FFA2-4C31-B249-2507C82D4A68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedSea.Web", "RedSea.Web\RedSea.Web.csproj", "{83449E2D-FFA2-4C31-B249-2507C82D4A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSea.Domain", "RedSea.Domain\RedSea.Domain.csproj", "{FAB633B0-85AC-4FA7-AF91-4B1E72DE5B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSea.Aplication", "RedSea.Aplication\RedSea.Aplication.csproj", "{1FB7D82C-D332-444D-B49B-12386BDB6BFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSea.Infrastructure", "RedSea.Infrastructure\RedSea.Infrastructure.csproj", "{42FDCB51-10C3-4901-8669-EB0A5E38E2E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{83449E2D-FFA2-4C31-B249-2507C82D4A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83449E2D-FFA2-4C31-B249-2507C82D4A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83449E2D-FFA2-4C31-B249-2507C82D4A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB633B0-85AC-4FA7-AF91-4B1E72DE5B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB633B0-85AC-4FA7-AF91-4B1E72DE5B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB633B0-85AC-4FA7-AF91-4B1E72DE5B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB633B0-85AC-4FA7-AF91-4B1E72DE5B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB7D82C-D332-444D-B49B-12386BDB6BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB7D82C-D332-444D-B49B-12386BDB6BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB7D82C-D332-444D-B49B-12386BDB6BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB7D82C-D332-444D-B49B-12386BDB6BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42FDCB51-10C3-4901-8669-EB0A5E38E2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42FDCB51-10C3-4901-8669-EB0A5E38E2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42FDCB51-10C3-4901-8669-EB0A5E38E2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42FDCB51-10C3-4901-8669-EB0A5E38E2E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
